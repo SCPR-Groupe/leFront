@@ -1,7 +1,7 @@
 import $ from "jquery"
 
-const functionFade=(clas , val)=>{
-  $(clas).fadeIn(val)
+const functionFade = (clas, val) => {
+    $(clas).fadeIn(val)
 }
 
 
