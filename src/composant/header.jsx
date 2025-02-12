@@ -31,7 +31,7 @@ const Header = () => {
               Inscription
             </Link>
 
-            <Link to="" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
+            <Link to="/about" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
               About
             </Link>
 
