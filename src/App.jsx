@@ -4,6 +4,8 @@ import Incription from "./page/Page_ACCES_PUBLIC/inscription";
 import LayooutSimple from "./composant/layoutSimple";
 import { SnackbarProvider } from "notistack";
 import Accueil from "./page/Page_ACCES_PUBLIC/Accueil";
+import Contact from "./page/Page_ACCES_PUBLIC/Contact";
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
               <Route index element={<Login />} />
               <Route path="/inscription" element={<Incription />} />
               <Route path="/Accueil" element={<Accueil />} />
+              <Route path="/contact" element={<Contact />} />
             </Route>
           </Routes>
         </SnackbarProvider>
