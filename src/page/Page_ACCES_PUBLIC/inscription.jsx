@@ -4,6 +4,7 @@ import $ from "jquery";
 import { useSnackbar } from "notistack";
 import { useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
+import functionFade from "../../PurJs/FunctionContactJs";
 
 const Incription = () => {
   const [email, setEmail] = useState("");
@@ -17,7 +18,10 @@ const Incription = () => {
    
   };
   useEffect(() => {
-    $(".register").fadeIn(2000);
+    const vr = '.register';
+    const nb = 5000
+    functionFade(vr,nb);
+    // $(vr).fadeIn(nb);
   }, []);
   return (
     <div className="px-[10em] py-8 flex items-center justify-center mt-2">

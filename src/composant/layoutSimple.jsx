@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const LayooutSimple = () => {
   return (
-    <div className="w-full h-screen bg-sombre">
+    <div className="w-full">
       <Header />
       <div>
         <Outlet />
