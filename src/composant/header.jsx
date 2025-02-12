@@ -8,7 +8,12 @@ const Header = () => {
         
         <img src="kalam.png" alt=""  width={50} />
 
+
         <div className="flex items-center justify-center space-x-8 text-[#b0b0b0] text-[1.2em]">
+
+        <Link to="/Accueil" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
+              Accueil
+        </Link>
           <Link to="/" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
               Connexion
           </Link>
@@ -16,6 +21,15 @@ const Header = () => {
           <Link to="/inscription" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
               Inscription
           </Link>
+
+          <Link to="" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
+              About
+          </Link>
+
+          <Link to="" className="relative flex items-center justify-center lg:justify-start md:space-x-3 hover:border-b-[3px] border-jaune hover:text-blanc" >
+              Contact us
+          </Link>
+
         </div>
 
       </div>
