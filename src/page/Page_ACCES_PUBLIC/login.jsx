@@ -31,7 +31,7 @@ const Login = () => {
           </div>
 
           <p className="my-2 underline text-end text-blue-500">
-            mot de passe oublié?
+            mot de passe hadino?
           </p>
 
           <button className="flex items-center justify-center space-x-3 py-2 rounded-md bg-jaune w-full text-sombre">
