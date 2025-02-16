@@ -9,9 +9,9 @@ const Login = () => {
   return (
     <div className="px-[10em] py-8 flex items-center justify-center mt-2">
       <div className="text-center text-blanc py-3 border-[2px] rounded-xl px-7 w-[22rem] login hidden">
-        <p className="text-[2em] font-bold">LOGIN</p>
+        <p className="text-[2em] font-bold">Se Connecter</p>
         <p className="text-[14px] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          Il vous mieux connecter pour introduire librement.
         </p>
 
         <form className="my-4">

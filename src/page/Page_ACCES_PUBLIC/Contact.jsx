@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { Phone, MapPin, Mail, Clock, Facebook, Linkedin, Twitter, Instagram } from 'lucide-react';
 import functionFade from '../../PurJs/FunctionContactJs';
 const Contact = () => {
@@ -8,16 +8,15 @@ const Contact = () => {
 
         functionFade('.test2', 4000)
 
-
     }, [])
     return (
         <div className=' px-[0.6rem]  xl:px-[9rem] py-8 '>
             <div className='test2 hidden'>
-                <h1 className='text-4xl text-center text-[#cbc9c9]'>Connect with Our Team</h1>
+               
             </div>
             <div className='  grid lg:grid-cols-2 gap-4 text-center sm:text-left sm:gap-16 pt-4  '>
                 <div className=' p-5'>
-                    <form action="" className='bg-[#2a2c3b] px-4 sm:px-12 py-6 rounded-md test2 hidden '>
+                    <form action="" className='bg-[#2a2c3b]  px-4 sm:px-12 py-6 rounded-md test2 hidden border-t-2 '>
                         <h1 className='text-3xl pb-6 text-jaune text-center'>Get in Touch With Us</h1>
                         <div className='grid  md:grid-cols-2 gap-6'>
                             <div className='col-span-1 '>
@@ -40,14 +39,14 @@ const Contact = () => {
                 </div>
                 <div className='  test2 hidden mx-2'>
                     <div>
-                        <h1 className='text-3xl pb-6 text-jaune '>Contact Details</h1>
+                        <h1 className='text-3xl pb-6 text-blanc '>Contact Details</h1>
                         <p className='text-blanc'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugiat corrupti ab recusandae maxime sequi voluptate cumque veritatis aperiam harum !
                         </p>
                     </div>
                     <div className='grid gap-8 pt-6 w-full md:grid-cols-2  xl:grid-cols-2 '>
                         {/* <div className='row-span-1 grid grid-cols-2 gap-10 '> */}
-                        <div className=' bg-[#2a2c3b] shadow-sm rounded-lg  p-4 flex items-center gap-4'>
+                        <div className=' bg-[#2a2c3b] shadow-md rounded-lg  p-4  flex  items-center gap-4  border-t-2'>
                             <div className='bg-blanc  rounded-lg flex items-center justify-center p-3'>
                                 <MapPin className='text-jaune' size={34} />
                             </div>
@@ -56,7 +55,7 @@ const Contact = () => {
                                 <p>Isaha lot 1455/45P</p>
                             </div>
                         </div>
-                        <div className='col-span-1 bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center'>
+                        <div className='col-span-1 bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center border-t-2  '>
                             <div className='bg-blanc   rounded-lg flex items-center justify-center p-3'>
                                 <Phone className='text-jaune' size={34} />
                             </div>
@@ -67,7 +66,7 @@ const Contact = () => {
                         </div>
                         {/* </div>
                         <div className='row-span-1 grid grid-cols-2 gap-10 '> */}
-                        <div className=' bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center'>
+                        <div className=' bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center border-t-2 '>
                             <div className='bg-blanc  rounded-lg flex items-center justify-center p-3'>
                                 <Clock className='text-jaune' size={34} />
                             </div>
@@ -76,7 +75,7 @@ const Contact = () => {
                                 <p>Daily 09 am - 05 pm</p>
                             </div>
                         </div>
-                        <div className=' bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center'>
+                        <div className=' bg-[#2a2c3b] shadow-sm rounded-lg  gap-4 p-4 flex items-center border-t-2  '>
                             <div className='bg-blanc   rounded-lg flex items-center justify-center p-3'>
                                 <Mail className='text-jaune' size={34} />
                             </div>
@@ -87,7 +86,7 @@ const Contact = () => {
                         </div>
                         {/* </div> */}
                     </div>
-                    <div className='flex items-center justify-between  pt-12'>
+                    <div className='flex items-center justify-between pt-6  mt-12'>
                         <div>
                             <h1 className='text-blanc'>Social Media :</h1>
                         </div>
@@ -107,8 +106,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                
+            <img src='/public/photos_charlie/testimonials-left-dec.png' className='w-[70vw] h-[58vh] absolute opacity-10 -z-30' />
+            <img src='/public/photos_charlie/footer.png' className='w-[70vw] h-[58vh] absolute left-[30%] -z-30' />
             </div>
-
 
 
 
