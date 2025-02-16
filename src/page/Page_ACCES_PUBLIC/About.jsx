@@ -25,9 +25,7 @@ const About = () => {
           <p className='text-[#b0b0b0] mt-[3rem]'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />{' '}
             Repudiandae rerum laboriosam aliquid non nam mollitia <br /> molestiae.
-            Incidunt sed aliquam quos distinctio praesentium,
-            tempore laborum, accusantium at, aperiam quae assumenda
-            expedita!
+            
           </p>
           <button className='bg-[#fec15f] rounded-lg mt-[2rem] px-5 text-[#333647] font-bold py-2'>Savoir +</button>
         </div>
