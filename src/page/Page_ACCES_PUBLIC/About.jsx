@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import functionFade from '../../PurJs/FunctionContactJs'
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
       <div className='ito w-full flex'>
         <div className=' w-[29.5rem] h-[25rem] mt-[7rem] rounded'>
           <h1 className='text-[2rem] font-bold text-blanc'>
-            TEAM SCPR <br /> Un petit code change le monde!
+            TEAM SCPR <br /> Un petit code change madagascar!
           </h1>
           <p className='text-[#b0b0b0] mt-[3rem]'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />{' '}
