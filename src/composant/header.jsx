@@ -63,7 +63,7 @@ const Header = () => {
           <Link to="/Accueil" className="relative flex items-center justify-center py-7 text-blanc">Accueil</Link>
           <Link to="/" className="relative flex items-center justify-center py-7 text-blanc">Connexion</Link>
           <Link to="inscription" className="relative flex items-center justify-center py-7 text-blanc">Inscription</Link>
-          <Link to="" className="relative flex items-center justify-center py-7 text-blanc">About</Link>
+          <Link to="/about" className="relative flex items-center justify-center py-7 text-blanc">About</Link>
           <Link to="/contact" className="relative flex items-center justify-center py-7 text-blanc">Contact us</Link>
         </div>
       </div>
