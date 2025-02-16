@@ -17,7 +17,7 @@ const Contact = () => {
             <div className='  grid lg:grid-cols-2 gap-4 text-center sm:text-left sm:gap-16 pt-4  '>
                 <div className=' p-5'>
                     <form action="" className='bg-[#2a2c3b]  px-4 sm:px-12 py-6 rounded-md test2 hidden border-t-2 '>
-                        <h1 className='text-3xl pb-6 text-jaune text-center'>Get in Touch With Us</h1>
+                        <h1 className='text-3xl pb-6 text-jaune text-center'>Bienvenue contact</h1>
                         <div className='grid  md:grid-cols-2 gap-6'>
                             <div className='col-span-1 '>
                                 <input type="text" className=' tailwind-form h-[50px]' placeholder='input your name' />
