@@ -8,7 +8,6 @@ const Contact = () => {
 
         functionFade('.test2', 4000)
 
-
     }, [])
     return (
         <div className=' px-[0.6rem]  xl:px-[9rem] py-8 '>
