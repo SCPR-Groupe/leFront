@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div className='  test2 hidden mx-2'>
                     <div>
-                        <h1 className='text-3xl pb-6 text-blanc '>Contact Details</h1>
+                        <h1 className='text-3xl pb-6 text-blanc '>Voici mon contact</h1>
                         <p className='text-blanc'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugiat corrupti ab recusandae maxime sequi voluptate cumque veritatis aperiam harum !
                         </p>
