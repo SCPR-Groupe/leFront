@@ -2,17 +2,22 @@
 import { useEffect } from "react";
 // import $ from "jquery";
 import { Facebook, Github, Linkedin, User, Warehouse } from 'lucide-react'   
+import functionFade from "../../PurJs/FunctionContactJs";
 
 const Accueil = () => {
  
   useEffect(() => {
-    // $(".register").fadeIn(2000);
-  }, []);
+
+
+    functionFade('.qkory', 4000)
+
+
+}, [])
 
   return (
 
    <>
-   <div style={{background:"URL(font.png)",backgroundSize:"cover"}} className="w-[100%] h-[83vh] ml-[0vw] mt-[2vh] overflow-hidden">
+   <div style={{background:"URL(font.png)",backgroundSize:"cover"}} className="akory w-[100%] h-[83vh] ml-[0vw] mt-[2vh] overflow-hidden">
     <div className="rounded-full w-[10rem] h-[10rem] absolute bg-jaune mt-[60vh]"></div>
         <div className="w-[80%] h-[80vh] ml-[10vw] mt-[2vh]">
           <div className="mt-[15vh] ml-10">
